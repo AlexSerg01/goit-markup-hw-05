@@ -461,14 +461,13 @@
                   </svg>
               </div>
           </div>
-          <div class="user-data">
-            <label id="user-comment" class="contact-form-label">Comment</label>
-            <textarea name="user-comment" placeholder="Text input" rows="5" class="user-comment-input"></textarea>
+          <div class="user-data user-data-finish">
+            <label for="user-comment" class="contact-form-label">Comment</label>
+            <textarea id="user-comment" placeholder="Text input" rows="5" class="user-comment-input"></textarea>
           </div>
           <div class="contact-form-checkbox-block">
             <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="contact-form-checkbox-input visually-hidden">
-            <div class="checkbox-div">
-              <label for="user-privacy" class="contact-form-checkbox-label">
+            <label for="user-privacy" class="contact-form-checkbox-label">
                 <span class="contact-form-checkbox-label-span">
                   <svg class="checkbox-icon" width="8" height="10">
                     <use href="./images/icons.svg#icon-checkbox"></use>
@@ -476,7 +475,6 @@
                 </span>
                 I accept the terms and conditions of the <a href="" class="link-privacy-policy">Privacy Policy</a>
               </label>
-            </div>  
           </div>
           <button type="submit" class="contact-form-send-buttom">Send</button>
         </form>
