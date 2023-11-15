@@ -531,13 +531,13 @@ body {
   }
 
   .footer-input-email {
-    width: 264px;
-    height: 40px;
+    inline-size: 264px;
+    block-size: 40px;
     border-radius: 4px;
     border: 1px solid var(--WHITE);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     background-color: transparent;
-    padding-left: 16px;
+    padding-inline-start: 16px;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -549,8 +549,8 @@ body {
   }
   
   .subscribe-button {
-    min-width: 165px;
-    height: 40px;
+    min-inline-size: 165px;
+    block-size: 40px;
     display: flex;
     padding: 8px 24px;
     justify-content: center;
@@ -568,7 +568,7 @@ body {
     }
 
   .button-svg {
-    margin-left: 16px;
+    margin-inline-start: 16px;
   }
 
   /* 00000 */
@@ -659,7 +659,7 @@ body {
 .user-data {
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
+  margin-block-end: 8px;
 }
 
 .contact-form-label {
@@ -670,7 +670,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   display: block;
-  margin-bottom: 4px;
+  margin-block-end: 4px;
 }
 
 .user-data-input {
@@ -707,7 +707,7 @@ body {
 }
 
 .user-data-finish {
-  margin-bottom: 16px;
+  margin-block-end: 16px;
 }
 
 .contact-form-comment {
